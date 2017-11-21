@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>vcName</key>
+		<string></string>
+		<key>isWeb</key>
+		<true/>
+		<key>title</key>
+		<string>问卷调查</string>
+		<key>vcId</key>
+		<string>100023</string>
+	</dict>
+	<dict>
+		<key>vcName</key>
+		<string></string>
+		<key>isWeb</key>
+		<true/>
+		<key>title</key>
+		<string>坐月子</string>
+		<key>vcId</key>
+		<string>100024</string>
+	</dict>
+</array>
+</plist>

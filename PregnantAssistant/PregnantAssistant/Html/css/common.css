@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%
+}
+
+body {
+    position: relative
+}
+
+div {
+    font-size: 14px
+}
+
+a {
+    text-decoration: none
+}
+
+input {
+    -webkit-appearance: none
+}
+
+.red {
+    color: #ff7685
+}
+
+.blue {
+    color: #429cef
+}
+
+.blueDark {
+    color: #83d0ff
+}
+
+.header {
+    position: relative;
+    background: url(../images/banner.png) center center/auto 50px
+}
+
+.header>a {
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: url(../images/ikonw-arrow.png) right center no-repeat
+}
+
+.popup-ad {
+    display: block;
+    font-size: 14px;
+    background: url(../images/ikonw-arrow.png) no-repeat right #ff7685;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.footer a {
+    display: block;
+    background: #ff2350;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px
+}
+
+.hyperlink {
+    list-style: none;
+    background: #fff8f2;
+    padding: 5px;
+    margin: 0
+}
+
+.hyperlink a {
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    color: #5e6571;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px 40px;
+    padding-left: 50px
+}
+
+.hyperlink .re-foet {
+    background-image: url(../images/re-foet.png)
+}
+
+.hyperlink .re-expe {
+    background-image: url(../images/re-expe.png)
+}
+
+.hyperlink .re-type {
+    background-image: url(../images/re-type.png)
+}
+
+.hyperlink .re-fore {
+    background-image: url(../images/re-fore.png)
+}
+
+.hyperlink .re-gest {
+    background-image: url(../images/re-gest.png)
+}
+
+.hyperlink .re-eval {
+    background-image: url(../images/re-eval.png)
+}
+
+

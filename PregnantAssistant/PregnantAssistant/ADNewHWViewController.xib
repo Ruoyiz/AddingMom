@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADNewHWViewController">
+            <connections>
+                <outlet property="dateButton" destination="cYQ-kP-ZxR" id="njk-xh-2c2"/>
+                <outlet property="heightButton" destination="IwD-t0-pRB" id="uXa-Xe-0wb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weightButton" destination="6IV-nL-NQD" id="N2e-SD-f3U"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8W-47-s5H">
+                    <rect key="frame" x="0.0" y="64" width="320" height="65"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="b8W-47-s5H" secondAttribute="height" multiplier="64:13" id="fzH-Kq-Fam"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="日期">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYQ-kP-ZxR">
+                    <rect key="frame" x="0.0" y="130" width="320" height="65"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cYQ-kP-ZxR" secondAttribute="height" multiplier="64:13" id="nXs-ju-zYu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="2015.4.28">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="DatePickShow:" destination="-1" eventType="touchUpInside" id="R2B-BX-fqS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJD-nj-zr4">
+                    <rect key="frame" x="0.0" y="196" width="320" height="65"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="xJD-nj-zr4" secondAttribute="height" multiplier="64:13" id="7Bi-Ua-srJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="身高(单位:cm)">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwD-t0-pRB">
+                    <rect key="frame" x="0.0" y="262" width="320" height="65"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="IwD-t0-pRB" secondAttribute="height" multiplier="64:13" id="aIV-pD-Wzw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="77.8">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="heightPickerShow:" destination="-1" eventType="touchUpInside" id="nh3-Zx-GU1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEt-hR-IMI">
+                    <rect key="frame" x="0.0" y="328" width="320" height="65"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZEt-hR-IMI" secondAttribute="height" multiplier="64:13" id="L7V-r5-Jec"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="体重(单位:kg)">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IV-nL-NQD">
+                    <rect key="frame" x="0.0" y="394" width="320" height="65"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6IV-nL-NQD" secondAttribute="height" multiplier="64:13" id="23P-h1-w5m"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="17.8">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="heightPickerShow:" destination="-1" eventType="touchUpInside" id="Pcp-UU-UYF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="IwD-t0-pRB" firstAttribute="top" secondItem="xJD-nj-zr4" secondAttribute="bottom" constant="1" id="5oN-73-omE"/>
+                <constraint firstItem="cYQ-kP-ZxR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AO8-cA-eGf"/>
+                <constraint firstAttribute="trailing" secondItem="6IV-nL-NQD" secondAttribute="trailing" id="B1Z-Fy-du7"/>
+                <constraint firstAttribute="trailing" secondItem="xJD-nj-zr4" secondAttribute="trailing" id="Ei1-0y-k5G"/>
+                <constraint firstItem="IwD-t0-pRB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="G6n-Vz-jbk"/>
+                <constraint firstItem="ZEt-hR-IMI" firstAttribute="top" secondItem="IwD-t0-pRB" secondAttribute="bottom" constant="1" id="GIe-YI-wVK"/>
+                <constraint firstAttribute="trailing" secondItem="b8W-47-s5H" secondAttribute="trailing" id="Jwu-o6-mrR"/>
+                <constraint firstItem="b8W-47-s5H" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ONx-R6-diy"/>
+                <constraint firstAttribute="trailing" secondItem="IwD-t0-pRB" secondAttribute="trailing" id="Tl5-xp-4HJ"/>
+                <constraint firstItem="6IV-nL-NQD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Vol-Th-8iT"/>
+                <constraint firstItem="xJD-nj-zr4" firstAttribute="top" secondItem="cYQ-kP-ZxR" secondAttribute="bottom" constant="1" id="YE1-Hd-Jbn"/>
+                <constraint firstItem="6IV-nL-NQD" firstAttribute="top" secondItem="ZEt-hR-IMI" secondAttribute="bottom" constant="1" id="eAb-mS-ma2"/>
+                <constraint firstAttribute="trailing" secondItem="cYQ-kP-ZxR" secondAttribute="trailing" id="hvk-4P-9Bh"/>
+                <constraint firstItem="ZEt-hR-IMI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jhf-wt-6gv"/>
+                <constraint firstItem="b8W-47-s5H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="nBc-GN-mFF"/>
+                <constraint firstItem="cYQ-kP-ZxR" firstAttribute="top" secondItem="b8W-47-s5H" secondAttribute="bottom" constant="1" id="qLd-LP-XP5"/>
+                <constraint firstAttribute="trailing" secondItem="ZEt-hR-IMI" secondAttribute="trailing" id="qdH-sL-jVS"/>
+                <constraint firstItem="xJD-nj-zr4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qla-J5-Ecw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-105" y="76"/>
+        </view>
+    </objects>
+</document>

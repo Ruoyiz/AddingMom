@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PregnantAssistant
+
+  Created by D on 14-9-17.
+  Copyright (c) 2014年 Adding. All rights reserved.
+*/
+
+//"Setting" = "Setting";
+
+"iLinkMessageTitle" = "亲爱的";
+"iLinkAppMessage" = "%@ 有新版本了.\n你想要现在更新吗?";
+"iLinkCancelButton" = "不，谢谢";
+"iLinkUpdateButton" = "好的，现在更新";
+"iLinkRemindButton" = "稍后提醒我";
